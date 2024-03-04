@@ -159,7 +159,7 @@
       border: none;
       border-radius: 5px;
       background: #000;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 900;
       color: #FAEBE7;
       cursor: pointer;
