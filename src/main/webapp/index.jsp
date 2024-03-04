@@ -150,7 +150,7 @@
       opacity: 1;
       }
       .btn-block {
-      margin-top: 10px;
+      margin-top: 12px;
       text-align: center;
       }
       button {
