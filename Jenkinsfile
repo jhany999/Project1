@@ -8,7 +8,7 @@ pipeline{
                           }
          stage("con_build"){
             steps{
-            sh 'mvn package
+            sh 'mvn package'
                  }
                      }
          stage("con_deploy"){
