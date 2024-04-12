@@ -1,5 +1,4 @@
-FROM tomcat
-MAINTAINER jhansi
-RUN apt update
-RUN mv /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
-COPY target/devops.war /usr/local/tomcat/webapps/
+FROM openjdk:8
+EXPOSE 8080
+ADD target/devops.war devops.war
+ENTRYPOINT ["java","-jar","/devops.war"]
